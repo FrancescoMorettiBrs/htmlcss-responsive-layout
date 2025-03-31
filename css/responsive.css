@@ -1,0 +1,41 @@
+/* Soluzione qui */
+/* TABLET */
+@media screen and (min-width: 768px) {
+  /* HEADER */
+  #topbar {
+    display: inline;
+  }
+  /* MAIN */
+  main {
+    padding: 50px;
+  }
+  /* TITOLO */
+  .recipe-origin {
+    display: inline;
+    font-size: 1.8rem;
+  }
+  .recipe-title {
+    font-size: 1.5rem;
+  }
+  .quick-notes {
+    display: flex;
+  }
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .quick-notes ul li {
+    width: 30%;
+  }
+  .social-networks button {
+    padding: 10px 50px;
+  }
+  .ads {
+    display: block;
+  }
+  img {
+    float: left;
+    margin-bottom: 30px;
+  }
+}
