@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
   /* HEADER */
   #topbar {
-    display: inline;
+    justify-content: flex-start;
   }
   /* MAIN */
   main {
@@ -26,18 +26,19 @@
     width: 100%;
   }
   .quick-notes ul li {
-    width: 30%;
+    width: calc(100% / 3);
   }
   /* SOCIAL-NETWORK */
   .social-networks button {
-    padding: 10px 50px;
+    width: 25%;
+    flex-grow: 1;
   }
   .ads {
     display: block;
   }
-  img {
+  .presentation img {
     float: left;
-    margin-bottom: 30px;
+    margin-right: 10px;
   }
 }
 
@@ -57,7 +58,6 @@
   .recipe-video {
     width: 70%;
     height: auto;
-    display: flex;
   }
   .recipe-info {
     width: 30%;
@@ -72,11 +72,12 @@
   }
   /* SOCIAL-NETWORK */
   .social-networks .label {
-    display: inline-block;
+    display: inline;
   }
   .social-networks .btn {
     display: flex;
     gap: 3px;
+    justify-content: center;
   }
   /* FOOTER */
   footer {
